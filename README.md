@@ -11,11 +11,11 @@ If you find this help your research, please cite it.
 }
 ```
 #### 介绍
-##### 对于这篇论文，主要是运用了类内的属性属性损失，目的是来减少，通一个id视频序列内的方差，并且是使用了联合属性框架，来提高识别的准确率。其中我对这篇论文代码
-##### 有了全面的注释，几乎是每一行代码都被注释了，非常适合小白学习，如果你想测试这个代码的时候，我们可以使用 from IPython import embed这个包来测试代码，这样
-##### 在你要测试的代码前面加入embed()这个函数，重新来运行代码，然后你就是可以查看你输出的效果的。就是相当于设置断点，由由于我们实验室设备的限制，我的结果还是不
+##### 对于这篇论文，主要是运用了类内的属性损失，目的是来减少，相同id视频序列内的方差，并且是使用了联合属性框架，来提高识别的准确率。其中我对这篇论文代码
+##### 有了全面的注释，几乎是每一行代码都被注释了，非常适合学习，如果你想测试这个代码的时候，我们可以使用 from IPython import embed这个包来测试代码，这样
+##### 在你要测试代码前面加入embed()这个函数，重新来运行代码，然后你就是可以查看你输出的效果的。相当于设置断点，由于我们实验室设备的限制，我的结果还是不
 ##### 达到与原来论文相同的结果的。但结果也是非常接近的。但是我在改小batch和number_worker的一些参数之后，准确率会下降，如果在我这样的实验条件下，在增大batch和
-##### number_worker准确率会上升，所以我有理由相信，当我的实验条件达到论文中的实验条件，会达到原论文的准确率的。
+##### number_worker准确率会上升，所以我有理由相信，当我的实验条件达到论文中的实验条件，会达到原论文的准确率。
 ### Introduction
 This repository contains a project which firstly introducing the pedestrain attribute information into video-based Re-ID, we address this issue by introducing a new metric learning method called Attribute-aware Identity-hard Triplet Loss (AITL), which reduces the intra-class variation among positive samples via calculating attribute distance. To achieve a complete model of video-based person Re-ID, a multitask framework with Attribute-driven Spatio-Temporal Attention (ASTA) mechanism is also proposed. 
 #### 1. Attribute-aware Identity-hard Triplet Loss 
